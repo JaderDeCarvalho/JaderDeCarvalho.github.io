@@ -23,7 +23,7 @@ email: contato@triplofiltro.com.br
 description: >- # this means to ignore newlines until "baseurl:"
   Um blog com conteúdo bom, verdadeiro e útil!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://triplofiltro.com.br" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://jaderdecarvalho.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: triplo_filtro
 github_username: triplo_filtro
 
