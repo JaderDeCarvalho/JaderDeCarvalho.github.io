@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<body>
+
+    <div class="container">
+
+        {% if site.posts.size == 0 %}
+            <h1>Nenhum post encontrado :'(</h1>
+        {% else %}
+            {% for post in site.posts %}
+
+            <a class="blog-post-link" href="{{post.url}}">
+                <div class="blog-post-container">
+                    <img src="{{ post.image }}" alt="{{ post.image-description }}">
+
+                    <h1>{{ post.title }}</h1>
+                    <span>{{ post.date | date_to_string }}</span>
+
+                    <p>
+                        {{ post.description }}
+                    </p>
+                </div>
+            </a>
+
+            {% endfor %}
+
+        {% endif %}
+
+    </div>
+
+</body>

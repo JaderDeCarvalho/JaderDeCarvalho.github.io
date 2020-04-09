@@ -1,0 +1,28 @@
+<header class="container">
+  <nav>
+      <a href="{{ site.url }}"><h1>{{ site.title }}</h1></a>
+
+      <input type="checkbox" id="chk">
+
+      <label for="chk" class="show-menu-btn">
+          MENU
+      </label>
+
+      <ul class="menu">
+        <li>
+            <label for="chk" class="hide-menu-btn">
+                X
+            </label>
+        </li>
+        {% for page in site.pages %}
+
+            {% if page.title%}
+                <a href="{{ page.url }}">
+                    <li>{{ page.title }}</li>
+                </a>
+            {% endif %}
+        {% endfor %}
+      </ul>
+  </nav>
+  <div class="clear"></div>
+</header>
