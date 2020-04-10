@@ -1,10 +1,13 @@
 ---
 ---
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 /*INÍCIO CSS RESET*/
 
 html {
     box-sizing: border-box;
-    font-size: 16px;
+    font-family: montserrat, sans-serif;
+    font-size: 18px;
+    word-spacing: 5px;
     color: #2D2D2D;
     scroll-behavior: smooth;
 }
@@ -42,7 +45,7 @@ img {
 /*INÍCIO CONTAINER*/
 
 .container {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -119,6 +122,10 @@ nav a:hover {
 }
 
 @media screen and (max-width: 900px) {
+    html {
+        font-size: 16px !important;
+    }
+    
     .show-menu-btn, .hide-menu-btn {
         display: block;
         margin-top: 7px;
