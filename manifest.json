@@ -5,5 +5,10 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "orientation": "portrait",
-  "start_url": "http://triplofiltro.com.br"
+  "start_url": ".",
+  "icons": [
+    "src": "assets/icon.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  ]
 }
