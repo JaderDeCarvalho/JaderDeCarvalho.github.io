@@ -18,6 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# PWA Manifest.json Settings
+name: "Triplo Filtro"
+short_name: "tf"
+url: "http://triplofiltro.com.br"
+language: "pt-br"
+lang_direction: "ltr"
+color: "#fff"
+
 title: Triplo Filtro
 email: contato@triplofiltro.com.br
 description: >- # this means to ignore newlines until "baseurl:"
