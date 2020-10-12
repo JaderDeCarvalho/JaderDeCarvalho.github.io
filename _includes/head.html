@@ -11,4 +11,20 @@
   {%- endif -%}
 
   <title>{% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}</title>
+  
+  <script>
+    window.addEventListener ('load', () => {
+      registerServiceWorker();
+    });
+    
+    async funcion registerServiceWorker() {
+      if ('serviceWorker' in navigator) {
+        try {
+          await navigator.serviceWorker.register('../serviceworker.js');
+        } catch (e) {
+          console.log('register serviceworker failed!');
+        }
+      } 
+    }
+  </script>
 </head>
