@@ -1,0 +1,9 @@
+{
+  "name": "Triplo Filtro",
+  "short_name": "TF",
+  "theme_color": "#626262",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "http://triplofiltro.com.br"
+}
