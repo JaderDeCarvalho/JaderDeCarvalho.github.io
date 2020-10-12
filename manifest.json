@@ -7,8 +7,10 @@
   "orientation": "portrait",
   "start_url": ".",
   "icons": [
-    "src": "assets/icon.png",
-    "sizes": "512x512",
-    "type": "image/png"
+    {
+      "src": "assets/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
   ]
 }
